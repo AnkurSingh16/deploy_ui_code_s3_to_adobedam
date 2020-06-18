@@ -1,0 +1,31 @@
+{
+  "name": "deploy_ui_code_s3_to_adobedam",
+  "version": "1.0.0",
+  "description": "to deploy ui code from s3 to adobe dam via jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-watch": "onchange '**/*.js' -- prettier --write {{changed}}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnkurSingh16/deploy_ui_code_s3_to_adobedam.git"
+  },
+  "keywords": [
+    "cicd",
+    "deployment",
+    "s3",
+    "adobe",
+    "dam"
+  ],
+  "author": "Ankur Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnkurSingh16/deploy_ui_code_s3_to_adobedam/issues"
+  },
+  "homepage": "https://github.com/AnkurSingh16/deploy_ui_code_s3_to_adobedam#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "yargs": "^15.3.1"
+  }
+}
