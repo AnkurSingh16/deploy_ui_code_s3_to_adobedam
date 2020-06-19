@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/AnkurSingh16/deploy_ui_code_s3_to_adobedam#readme",
   "dependencies": {
+    "aws-sdk": "^2.700.0",
     "chalk": "^4.1.0",
     "yargs": "^15.3.1"
   }
