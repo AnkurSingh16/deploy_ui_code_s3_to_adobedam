@@ -2,6 +2,7 @@
 
 const yargs = require("yargs");
 
+const fetchFromS3 = require('./fetchfroms3');
 
 const options = yargs
 .usage("Usage: --zipversion <zip version>, --replicate <boolean>")
