@@ -1,0 +1,9 @@
+{
+    "roleARN": "arn:aws:iam::144631737725:role/calc-reimagine-read-wirte-to-s3-via-ec2",
+    "roleSessionName": "calc-reimagine-read-write=to=s3=via-ec2",
+    "s3BucketRegion": "ap-southeast-2",
+    "s3bucket": "calc-reimagine-sample",
+    "aemDomain": "localhost:4502",
+    "aemPath": "/content/dam/mainfolder/",
+    "zipName": "build"
+}

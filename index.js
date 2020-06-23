@@ -2,6 +2,8 @@
 
 const yargs = require("yargs");
 
+const fetchFromS3 = require('./fetchfroms3');
+
 const options = yargs
 .usage("Usage: --zipversion <zip version>, --replicate <boolean>")
 .option("zver", {alias: "zipversion", describe: "provide explicit zip version to be deployed", type: "number", demandOption:false})
